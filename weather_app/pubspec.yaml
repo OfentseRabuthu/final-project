@@ -1,0 +1,62 @@
+name: weather_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  dio: ^5.0.0
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  google_maps: ^8.0.0
+  google_maps_flutter: ^2.9.0
+  google_maps_flutter_web: ^0.5.10
+  flutter_map: ^7.0.2
+  flutter_svg: ^2.0.10+1
+  js: ^0.7.1
+  cached_network_image: ^3.0.0
+  fl_chart: ^0.69.0
+  flutter_local_notifications: ^17.2.2
+  firebase_messaging: ^15.1.2
+  shared_preferences: ^2.0.0
+  sqflite: ^2.0.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  analyzer: ^6.7.0
+  provider: ^6.0.0
+  flutter_bloc: ^8.0.0
+  timezone: ^0.9.4
+  logger: ^2.4.0
+  macros: ^0.1.2-main.4
+  _fe_analyzer_shared: ^72.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.3  
+  intl_translation: ^0.20.0 
+
+flutter:
+  generate: true
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+  assets:
+    - lib/l10n/
+    - assets/weather_icons/

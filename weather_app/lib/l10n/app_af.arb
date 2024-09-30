@@ -1,0 +1,9 @@
+{
+  "@@locale": "af",
+  "appTitle": "Weersprogram",
+  "settingsTitle": "Instellings",
+  "useCelsius": "Gebruik Celsius",
+  "enableNotifications": "Aktiveer kennisgewings",
+  "darkMode": "Donker modus",
+  "selectLanguage": "Kies taal"
+}

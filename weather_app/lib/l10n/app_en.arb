@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "appTitle": "Weather Forecast App",
+  "settingsTitle": "Settings",
+  "useCelsius": "Use Celsius",
+  "enableNotifications": "Enable Notifications",
+  "darkMode": "Dark Mode",
+  "selectLanguage": "Select Language"
+}
