@@ -1,16 +1,60 @@
-# weather_app
+## Weather App Documentation
 
-A new Flutter project.
+# Introduction
 
-## Getting Started
+This project is a weather app that uses the OpenWeatherMap and Google Places APIs to display weather information for selected cities.
 
-This project is a starting point for a Flutter application.
+# Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
+    -Flutter for mobile app development.
+    -Node.js for backend API handling.
+    -APIs: OpenWeatherMap, Google Places (managed via Node.js backend).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Ensure you have the following installed:**
+
+    Flutter SDK
+    Node.js
+    Git
+
+# Getting Started
+
+**Clone the Repository.**
+
+**Install Node.js dependencies:**
+
+`npm install axios cors dotenv express`
+
+**Navigate to the weather_app/backend folder**
+`cd weather_app/backend`
+
+**Start the Node.js server on git bash:**
+
+`npm start`
+
+The backend server will run on http://localhost:3000.
+
+# Running the Flutter App
+
+**Open another terminal(command prompt) and navigate to the weather_app directory:**
+    `cd weather_app`
+
+**Install Flutter dependencies:**
+    `flutter pub get`
+
+**Launch the app:**
+    `flutter run`
+
+# Troubleshooting
+
+Backend Issues: Ensure Node.js is running in git bash and is accessible.
+Flutter Issues: Ensure Flutter dependencies are installed and the app is launched using flutter run on cmd.
+
+# Notice
+
+**The provided APIs are for testing purposes and thus only available for a short period and will be deactivated right after in anticipation of deployment where new keys will be generated.**
+
+# Support
+
+For any issues or questions, please contact o.rabuthu@gmail.com.
